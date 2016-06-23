@@ -248,6 +248,13 @@ h1{
 ##############
 */
 
+article h2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
 article  p {
 	text-align: justify;
 	text-indent: 40px;
@@ -257,16 +264,12 @@ article  p {
 }
 
 article  p:first-of-type {
-	padding-top: 50px;
+	padding-top: 35px;
 }
 article  p:last-of-type {
 	padding-bottom: 50px;
 }
 
-
-article  p:first-of-type {
-	padding-top: 50px;
-}
 
 /* Rockets */
 .rockets {
