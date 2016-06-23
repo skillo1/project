@@ -6,7 +6,7 @@
 
 <?php include "includes/header.inc.php"; ?>
 <?php include "includes/rightDiv.inc.php"; ?>
-<?php include "includes/content.inc.php"; ?>
+<?php include "includes/circles.inc.php"; ?>
 
 <?php include "includes/rockets.inc.php"; ?>
 
