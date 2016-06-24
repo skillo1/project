@@ -1,4 +1,5 @@
 <?php
+session_start();
 include "db.sql.php";
 
 $sql = "SELECT * FROM posts";

@@ -323,4 +323,61 @@ hr {
 }
 
 
+/*#######################
+#######   Sign in form   ######
+#######################*/
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+#signInForm {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+#signInForm > input {
+	width: 80%;
+	height: 2em;
+	margin-left: 10%;
+	margin-bottom: 30px;
+}
+
+#signInForm > button {
+	width: 40%;
+	height: 2em;
+	margin-left: 30%;
+}
+
+/*#######################
+####### Login area ######
+#######################*/
+
+#logoutButton {
+    background-color: #34495e;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 2px;
+    cursor: pointer;
+    margin-left: 30%;
+    -webkit-border-radius: 30% 0 30% 0;
+	-moz-border-radius: 30% 0 30% 0;
+    border-radius: 30% 0 30% 0;
+}
+
+#logoutButton:hover {
+	background-color: #748FA1;
+	color: #e67e22;
+}
+
+
 
