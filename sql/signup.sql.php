@@ -32,8 +32,10 @@ else {
 		exit();
 	} else {
 
+		$encryptedPassword = password_hash($pwd, PASSWORD_DEFAULT);
+
 		$sql = "INSERT INTO user (first, last, uid, pwd) 
-			VALUES ('$first', '$last', '$uid', '$pwd')";
+			VALUES ('$first', '$last', '$uid', '$encryptedPassword')";
 
 		$result = $conn->query($sql);
 
