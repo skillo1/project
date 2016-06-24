@@ -11,6 +11,17 @@
 
 	<h2>Creare cont</h2>
 
+	<?php 
+	$url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+	if(strpos($url, 'error=empty') !== false){
+		echo "Fill out all fields!";
+	}
+	else if(strpos($url, 'error=username') !== false){
+		echo "Username already exists!";
+	}
+
+?>
+
 	<form action="sql/signup.sql.php" method="post" id="signInForm">
 		
 		<input type="text" name="first" placeholder="First name"><br>

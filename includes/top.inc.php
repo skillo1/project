@@ -10,3 +10,4 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/reset.css" type="text/css">
 	<link rel="stylesheet" href="css/mystyle.css" type="text/css">
+	<link rel=icon href="img/favicon.png" sizes="40x40" type="image/png">
